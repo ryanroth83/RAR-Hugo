@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="{{ $.Site.BaseURL }}/css/navbar.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<nav  class="nav">
+<nav>
 <!-- REGULAR SITE TOP NAV BAR -->
   <div class="navmenu">
     {{ $inNav := 0 }}
@@ -15,7 +14,7 @@
       {{ end }}
     {{ end }}
     <div class="burger_flex">
-      <button onclick="menuFunction()" class="burger_btn" ><i class="fa fa-solid fa-bars"></i></button>
+      <button onclick="menuFunction()" class="burger_btn" id="burger_btn_id"><i class="fa fa-solid fa-bars"></i></button>
     </div>
   </div>
   <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
@@ -31,25 +30,15 @@
           <a href="javascript:void(0);" class="current">ARTICLE</a>
         {{ end }}
       {{ end }}
-      </div>
     </div>
   </div>
-
-    
+</nav>
 
 <script>
-
   function menuFunction() {
     var element = document.getElementById("resmenu_id");
+    var burger = document.getElementById("burger_btn_id");
     element.classList.toggle("hidden");
+    burger.classList.toggle("burger_btn_pressed");
   }
-
 </script>
-
-
-
-
-
-
-
-</nav>
