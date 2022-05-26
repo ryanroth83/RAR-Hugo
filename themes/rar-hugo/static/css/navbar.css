@@ -1,0 +1,72 @@
+.nav {
+
+}
+
+.navmenu {
+  display         : -webkit-flex;
+  display         : flex;
+  flex-direction  : row;
+  flex-wrap       : nowrap;
+  justify-content : flex-start;
+  margin          : 0 0 50px;
+  padding         : 0;
+  font-size       : 20px;
+  border-bottom   : 1px solid #BF0D3E;
+  height          : 38px;
+  white-space     : nowrap;
+  gap: 20px;   
+}
+
+.navmenu > a {
+  display         : inline-flex;
+  margin          : 0;
+  padding         : 0 20px;
+  height          : 100%;
+  color           : #E5E4E2;
+  text-decoration : none;
+}
+
+.navmenu > a:hover {
+color	:#fff;
+font-weight:bold;
+}
+
+.navmenu > .current {
+background-color:#BF0D3E;
+color:#fff;
+font-weight:bold;
+}
+
+.burger_flex {
+    margin-left: auto;
+}
+
+.burger_btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* RESPONSIVE MENU FLEXBOX, ON RIGHT */
+.resmenu_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.resmenu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 10px;   
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}

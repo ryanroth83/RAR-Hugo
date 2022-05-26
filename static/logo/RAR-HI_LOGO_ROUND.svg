@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666667 8.4666667"
+   version="1.1"
+   id="svg555"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="RAR-HI_LOGO_ROUND.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview557"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-page="true"
+     inkscape:zoom="7.3876233"
+     inkscape:cx="15.092811"
+     inkscape:cy="19.153657"
+     inkscape:window-width="1312"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs552">
+    <symbol
+       id="icon-home">
+      <title
+         id="title121083">home</title>
+      <path
+         d="M 28,18 16,4 4,18 h 3 v 10 h 6 v -8 h 6 v 8 h 6 V 18 Z"
+         id="path121085" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="font-variation-settings:'wght' 700;fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
+       id="path599"
+       cx="4.2333331"
+       cy="4.2333331"
+       r="4.2333331" />
+    <path
+       id="path148899"
+       style="font-size:20px;line-height:1.25;font-family:Arimo;-inkscape-font-specification:'Arimo, @wght=700';font-variation-settings:'wght' 700;fill:#ff0000;stroke-width:0.18814"
+       d="M 1.3245016,1.8185549 V 4.4073264 H 1.8665085 V 3.424365 h 0.6357097 l 0.6008007,0.9829614 h 0.0022 L 2.7726709,5.3535417 H 3.3859652 L 3.5818224,4.7137898 H 4.560007 l 0.1936527,0.6324027 v 1.3019189 h 0.542007 V 5.6651496 h 0.6357095 l 0.600801,0.9829618 H 7.1421647 L 6.4421491,5.5604227 C 6.6173059,5.5187746 6.756329,5.4324234 6.8592184,5.301362 6.9621079,5.1690756 7.0135526,5.0122917 7.0135526,4.8310103 7.0135526,4.582361 6.9296486,4.391893 6.7618406,4.2596066 6.5940329,4.1260954 6.3557952,4.0593399 6.047127,4.0593399 H 4.9124034 L 4.417064,2.6552665 H 3.7210904 L 3.3198215,3.7966042 3.0129908,3.3196384 C 3.1881476,3.2779925 3.3271709,3.1916389 3.4300603,3.0605773 3.5329497,2.9282909 3.5843943,2.7715071 3.5843943,2.5902257 3.5843943,2.3415762 3.5004905,2.1511082 3.3326828,2.0188219 3.1648749,1.8853106 2.926637,1.8185549 2.6179687,1.8185549 Z m 0.5420069,0.4207443 h 0.6945036 c 0.1592336,0 0.2786589,0.031234 0.3582757,0.093703 0.079617,0.062469 0.1194252,0.155559 0.1194252,0.2792712 0,0.1237124 -0.039196,0.219865 -0.117588,0.2884579 -0.078392,0.068593 -0.1935299,0.1028893 -0.3454144,0.1028893 H 1.8665085 Z M 4.0624628,2.9628324 4.6217403,3.8054232 H 4.4817373 V 4.4073261 H 4.2020986 V 3.9255833 H 3.922827 V 4.4073261 H 3.6431883 V 3.8054232 H 3.5031853 Z M 5.295666,4.4800839 h 0.6945039 c 0.1592335,0 0.2786592,0.031234 0.3582756,0.093703 0.079617,0.062469 0.1194249,0.155559 0.1194249,0.2792713 0,0.1237121 -0.039195,0.219865 -0.1175875,0.2884579 C 6.2718909,5.2101091 6.1567525,5.2444054 6.004868,5.2444054 H 5.295666 Z" />
+  </g>
+</svg>
