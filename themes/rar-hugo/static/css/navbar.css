@@ -35,10 +35,10 @@ font-weight:bold;
   color: white;
   padding: 10px 20px;
   text-align: center;
-  display: inline-block;
   height: 38px;
   font-size: 20px;
   cursor: pointer;
+  display: none;
 }
 
 .burger_btn > a:hover {
@@ -88,4 +88,11 @@ font-weight:bold;
   
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navmenu a:not(a.current) {display: none;}
+  .burger_btn {
+    display: inline-block;
+  }
 }
