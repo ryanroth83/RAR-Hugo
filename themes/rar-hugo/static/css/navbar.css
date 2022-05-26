@@ -41,8 +41,7 @@ font-weight:bold;
   display: none;
 }
 
-.burger_btn > a:hover {
-  color	:blueviolet;
+.burger_btn:hover {
   font-weight:bold;
   }
 
@@ -90,9 +89,17 @@ font-weight:bold;
   display: none;
 }
 
+/* SHOWS ONLY CURRENT TAB IN NAVBAR AND SHOWS BURGER MENU ON SMALL SCREENS */
 @media screen and (max-width: 600px) {
   .navmenu a:not(a.current) {display: none;}
   .burger_btn {
     display: inline-block;
+  }
+}
+
+/* HIDE RESMENU IF OPEN WHEN CHANGING TO LARGE SCREEN */
+@media screen and (min-width: 600px) {
+  .resmenu {
+    display: none;
   }
 }

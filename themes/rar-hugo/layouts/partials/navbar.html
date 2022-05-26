@@ -30,15 +30,17 @@
           <a href="javascript:void(0);" class="current">ARTICLE</a>
         {{ end }}
       {{ end }}
+      <a class="cancel" href="#"></a>
     </div>
   </div>
 </nav>
 
 <script>
   function menuFunction() {
-    var element = document.getElementById("resmenu_id");
+    var resmenu = document.getElementById("resmenu_id");
+    resmenu.classList.toggle("hidden");
+    
     var burger = document.getElementById("burger_btn_id");
-    element.classList.toggle("hidden");
     burger.classList.toggle("burger_btn_pressed");
   }
 </script>
