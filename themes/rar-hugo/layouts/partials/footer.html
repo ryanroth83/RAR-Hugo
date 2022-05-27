@@ -1,0 +1,10 @@
+ <footer class="line-dotted">  
+    <div>
+        <br>
+    {{ if .Site.Copyright }}
+        {{ .Site.Copyright | safeHTML }}
+    {{ else }}
+        "Build with Hugo & RAR-Hugo Theme"
+    {{ end }}
+    </div>
+</footer>

@@ -99,7 +99,7 @@ font-weight:bold;
 
 /* HIDE RESMENU IF OPEN WHEN CHANGING TO LARGE SCREEN */
 @media screen and (min-width: 600px) {
-  .resmenu {
+  #resmenu_id {
     display: none;
   }
 }
