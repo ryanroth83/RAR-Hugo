@@ -136,6 +136,8 @@ iframe {
     padding-right: 20px;
     padding-bottom: 0px;
     padding-left: 20px;
+    max-height: 15vh;
+    max-width: 90vw;
 }
 
 
