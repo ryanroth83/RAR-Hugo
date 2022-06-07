@@ -82,6 +82,7 @@ font-weight:bold;
 
 .resmenu:last-child {
   border-bottom: 2px solid #BF0D3E;
+  background-color: #green;
 }
 
 .resmenu > a:hover {
