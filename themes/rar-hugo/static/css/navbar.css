@@ -6,7 +6,7 @@
   justify-content : flex-start;
   padding         : 0;
   font-size       : 20px;
-  border-bottom   : 1px solid #BF0D3E;
+  border-bottom   : 2px solid #BF0D3E;
   height          : 38px;
   white-space     : nowrap;
   gap: 20px;   
@@ -74,8 +74,15 @@ font-weight:bold;
   text-decoration: none;
   color:white;
   font-weight:bold;
+  background-color: #000000;
+  padding: 3px 16px;
+  border-right: 2px solid #BF0D3E;
+  border-left: 2px solid #BF0D3E;
 }
 
+.resmenu:last-child {
+  border-bottom   : 2px solid #BF0D3E;
+}
 
 .resmenu > a:hover {
   background-color:#BF0D3E;
@@ -86,6 +93,8 @@ font-weight:bold;
 .resmenu > .current {
   display: none;
   }
+
+
   
 .hidden {
   display: none;
