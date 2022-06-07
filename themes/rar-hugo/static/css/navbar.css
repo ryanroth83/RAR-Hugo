@@ -48,6 +48,10 @@ font-weight:bold;
 .burger_btn_pressed {
   background-color:#BF0D3E;
   color:white;
+  font-family: “Font Awesome 5 Free”;
+    font-weight: 400;
+    content: “\f1ea”;
+  
 }
 
 /* RESPONSIVE MENU FLEXBOX, ON RIGHT */
