@@ -80,7 +80,7 @@ font-weight:bold;
   border-left: 2px solid #BF0D3E;
 }
 
-.resmenu:last-of-type {
+.resmenu:last-child {
   border-bottom: 2px solid #BF0D3E;
 }
 
