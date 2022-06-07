@@ -17,8 +17,8 @@
       <button onclick="menuFunction()" class="burger_btn" id="burger_btn_id"><i class="fa fa-solid fa-bars"></i></button>
     </div>
   </div>
-  <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
-  <div class="resmenu_flex">
+   <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
+   <div class="resmenu_flex">
     <div class="resmenu hidden" id="resmenu_id">
       {{ $inNav := 0 }}
       {{ $currentPage := .RelPermalink }}
@@ -30,7 +30,6 @@
           <a href="javascript:void(0);" class="current">ARTICLE</a>
         {{ end }}
       {{ end }}
-      <a class="cancel" href="#"></a>
     </div>
   </div>
 </nav>

@@ -63,6 +63,7 @@ font-weight:bold;
   flex-wrap: nowrap;
   align-items:stretch;
   position: absolute;
+  z-index: 999;
   color:white;
   background-color: #000000;
   height: 38px;
