@@ -80,9 +80,8 @@ font-weight:bold;
   border-left: 2px solid #BF0D3E;
 }
 
-.resmenu:last-child {
+.resmenu: > a:last-child {
   border-bottom: 2px solid #BF0D3E;
-  background-color: #green;
 }
 
 .resmenu > a:hover {
