@@ -64,6 +64,7 @@ font-weight:bold;
   align-items:stretch;
   position: absolute;
   color:white;
+  background-color: #000000;
   height: 38px;
   font-size: 20px;
 }
