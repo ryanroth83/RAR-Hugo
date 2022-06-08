@@ -34,6 +34,10 @@
   </div>
 </nav>
 
+<div>
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+</div>
+
 <script>
   function menuFunction() {
     var resmenu = document.getElementById("resmenu_id");
@@ -42,4 +46,9 @@
     var burger = document.getElementById("burger_btn_id");
     burger.classList.toggle("burger_btn_pressed");
   }
+  
+  
+ function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
 </script>
