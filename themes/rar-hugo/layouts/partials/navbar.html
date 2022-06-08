@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{ $.Site.BaseURL }}/css/navbar.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <nav>
 <!-- REGULAR SITE TOP NAV BAR -->
   <div class="navmenu">
@@ -14,7 +14,7 @@
       {{ end }}
     {{ end }}
     <div class="burger_flex">
-      <button onclick="menuFunction()" class="burger_btn" id="burger_btn_id"><i class="fa fa-solid fa-bars"></i></button>
+       <i onclick="menuFunction(this)" class="burger_btn fa-solid fa-bars" id="burger_btn_id></i>
     </div>
   </div>
    <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
@@ -35,7 +35,7 @@
 </nav>
 
 <div>
-<i onclick="myFunction(this)" class="fa fa-bars"></i>
+<i onclick="myFunction(this)" class="fa-solid fa-bars"></i>
 </div>
 
 <script>
@@ -48,7 +48,7 @@
   }
   
   
- function myFunction(x) {
+ function menuFunction(x) {
   x.classList.toggle("fa-times");
 }
 </script>
