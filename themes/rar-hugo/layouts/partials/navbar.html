@@ -14,7 +14,7 @@
       {{ end }}
     {{ end }}
     <div class="burger_flex">
-       <i onclick="menuFunction(this)" class="burger_btn fa-solid fa-bars" id="burger_btn_id></i>
+       <i onclick="menuFunction(this)" class="burger_btn fa-solid fa-bars" id="burger_btn_id"></i>
     </div>
   </div>
    <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
@@ -34,21 +34,12 @@
   </div>
 </nav>
 
-<div>
-<i onclick="myFunction(this)" class="fa-solid fa-bars"></i>
-</div>
-
 <script>
   function menuFunction() {
     var resmenu = document.getElementById("resmenu_id");
     resmenu.classList.toggle("hidden");
     
     var burger = document.getElementById("burger_btn_id");
-    burger.classList.toggle("burger_btn_pressed");
+    burger.classList.toggle("burger_btn_pressed fa-xmark");
   }
-  
-  
- function menuFunction(x) {
-  x.classList.toggle("fa-times");
-}
 </script>
