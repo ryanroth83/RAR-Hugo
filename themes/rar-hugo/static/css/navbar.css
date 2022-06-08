@@ -27,13 +27,10 @@ font-weight:bold;
 
 .burger_flex {
     margin-left: auto;
+    justify-content : flex-end;
 }
 
 .burger_btn {
-  display         : flex;
-  flex-direction  : row;
-  flex-wrap       : nowrap;
-  justify-content : flex-end;
   background-color: #000000;
   border: none;
   color: white;
