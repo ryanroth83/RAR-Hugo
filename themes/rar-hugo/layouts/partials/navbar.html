@@ -10,7 +10,7 @@
       <a href="{{ .URL }}" class="{{ if eq $currentPage .URL }} {{ $inNav = 1 }}current{{ end}}">{{ .Name }}</a>
       {{ end }}
       {{ if eq $inNav 0 }}
-        <a href="javascript:void(0);" class="current">Article</a>
+        <a href="javascript:void(0);" class="current">{{ .Title }}</a>
       {{ end }}
     {{ end }}
     <div class="burger_flex">
@@ -27,7 +27,7 @@
         <a href="{{ .URL }}" class="{{ if eq $currentPage .URL }} {{ $inNav = 1 }}current{{ end}}">{{ .Name }}</a>
         {{ end }}
         {{ if eq $inNav 0 }}
-          <a href="javascript:void(0);" class="current">Article</a>
+          <a href="javascript:void(0);" class="current">{{ .Title }}</a>
         {{ end }}
       {{ end }}
     </div>
