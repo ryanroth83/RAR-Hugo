@@ -4,9 +4,11 @@
   <body class="Site">
       {{ partial "header.html" . }}
       {{ partial "navbar.html" . }}
-    <main class="Site-content">
-      {{ .Content }}
-    </main>
+    <main>
+      {{ range .Pages }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
       {{ partial "footer.html" . }}
+    </main>
   </body>
 </html>

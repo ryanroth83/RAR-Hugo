@@ -1,3 +1,8 @@
+---
+title: "Brick Veneer"
+date: 2022-06-07T17:55:59-05:00
+draft: false
+---
 # Brick Veneer
 
 So what is it? Why is it not just brick?
