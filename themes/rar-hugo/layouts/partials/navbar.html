@@ -14,7 +14,7 @@
       {{ end }}
     {{ end }}
     <div class="burger_flex">
-       <i onclick="menuFunction(this)" class="burger_btn fa-solid fa-xmark" id="burger_btn_id"></i>
+       <i onclick="menuFunction(this)" class="burger_btn fa-solid fa-bars" id="burger_btn_id"></i>
     </div>
   </div>
    <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
@@ -40,6 +40,6 @@
     resmenu.classList.toggle("hidden");
     
     var burger = document.getElementById("burger_btn_id");
-    burger.classList.toggle("burger_btn_pressed fa-xmark");
+    burger.classList.toggle("burger_btn_pressed");
   }
 </script>
