@@ -248,6 +248,12 @@ ul{
     z-index: 10;
 }
 
+.blogPost {
+    display: block;
+    text-decoration: none;
+    color          : #BF0D3E;
+
+}
 
 /******************highlight.js override*************/
 .hljs {
