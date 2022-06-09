@@ -251,7 +251,8 @@ ul{
 .blogPost {
     display: block;
     text-decoration: none;
-    color          : #BF0D3E;
+    padding: 0px;
+    margin-bottom: 0px;
 
 }
 

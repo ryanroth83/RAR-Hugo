@@ -15,7 +15,7 @@
     {{ end }}
     <div class="burger_flex">
       <div class="burger_btn" id="burger_btn_id">
-        <i onclick="menuFunction(this)" class="fa-solid fa-bars"></i>
+        <i onclick="menuFunction()" class="fa-solid fa-bars" id="burger_icon"></i>
       </div>
     </div>
   </div>
@@ -43,5 +43,9 @@
     
     var burger = document.getElementById("burger_btn_id");
     burger.classList.toggle("burger_btn_pressed");
+
+    var icon = document.getElementById("burger_icon");
+    icon.classList.toggle("fa-x");
+
   }
 </script>
