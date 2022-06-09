@@ -21,7 +21,7 @@
   </div>
    <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
    <div class="resmenu_flex">
-    <div class="resmenu hidden" id="resmenu_id">
+    <span class="resmenu hidden" id="resmenu_id">
       {{ $inNav := 0 }}
       {{ $currentPage := .RelPermalink }}
       {{ if .Site.Menus.nav }}
@@ -32,7 +32,7 @@
           <a href="javascript:void(0);" class="current">{{ .Title }}</a>
         {{ end }}
       {{ end }}
-    </div>
+    </span>
   </div>
 </nav>
 
