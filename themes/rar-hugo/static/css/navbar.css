@@ -64,7 +64,7 @@ font-weight:bold;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items:stretch;
-  position: absolute;
+  position: relative;
   z-index: 999;
   color:white;
   background-color: #000000;
