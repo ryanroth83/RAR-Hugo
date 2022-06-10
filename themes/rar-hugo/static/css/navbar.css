@@ -28,7 +28,7 @@ font-weight:bold;
 .burger_flex {
     margin-left: auto;
     justify-content : flex-end;
-    z-index: 1;
+    z-index: 99;
 }
 
 .burger_btn {
@@ -64,10 +64,10 @@ font-weight:bold;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items:stretch;
+  align-items: stretch;
   position: relative;
   z-index: 999;
-  color:white;
+  color: white;
   background-color: #000000;
   height: 38px;
   font-size: 20px;
