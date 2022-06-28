@@ -5,7 +5,7 @@
       {{ partial "header.html" . }}
       {{ partial "navbar.html" . }}
     <main class="Site-content">
-      <div>
+      <div class="content">
         {{ range .Pages }}
             <article>
       <h3><span class="listarrow">&#10132; <a href="{{ .RelPermalink }}">{{ .Title }}</a><span></h3>
@@ -20,7 +20,7 @@
                 {{ end }}
             <article>
         {{ end }}
-        </div>
+       
         <div class="pages">
             {{ if .Paginator.HasPrev }}
             <a href="{{ .Paginator.Prev.URL }}">&lt;&lt; Previous </a>&nbsp;|&nbsp;
@@ -30,6 +30,7 @@
             <a href="{{ .Paginator.Next.URL }}">Next &gt;&gt;</a>
             {{ end }}
         </div>
+      </div>
     </main>
       {{ partial "footer.html" . }}
   </body>

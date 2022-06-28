@@ -20,7 +20,6 @@
     </div>
   </div>
    <!-- SMALL SCREEN DROPDOWN HAMBURGER NAV MENU -->
-   <div class="resmenu_flex">
     <span class="resmenu hidden" id="resmenu_id">
       {{ $inNav := 0 }}
       {{ $currentPage := .RelPermalink }}
@@ -33,7 +32,6 @@
         {{ end }}
       {{ end }}
     </span>
-  </div>
 </nav>
 
 <script>
@@ -46,6 +44,5 @@
 
     var icon = document.getElementById("burger_icon");
     icon.classList.toggle("fa-x");
-
   }
 </script>

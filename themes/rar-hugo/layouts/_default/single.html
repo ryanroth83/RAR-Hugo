@@ -5,7 +5,9 @@
       {{ partial "header.html" . }}
       {{ partial "navbar.html" . }}
     <main class="Site-content">
-      {{ .Content }}
+      <div class="content">
+        {{ .Content }}
+      </div>
     </main>
       {{ partial "footer.html" . }}
   </body>
