@@ -22,7 +22,7 @@ html, body {
     font-size           : 18px;
     color               : #E5E4E2;
     line-height         : 200%;
-    background-color    : #0b090a;
+    background-color:  {{ .Site.Params.backgroundLightMode}};
     width               : 100vw;
     max-width           : 100vw;
     overflow-x          : hidden;
