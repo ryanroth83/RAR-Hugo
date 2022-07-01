@@ -89,12 +89,12 @@ small > a{
     justify-content :flex-end;
     text-align      : right;
     font-size       : 16px;
-    color           : #BF0D3E;
+    color           : #f48c06;
     text-decoration : none;
 }
 
 small > a:hover {
-    color           : #BF0D3E;
+    color           : #ffba08;
     background-color: #000;
 }
 
