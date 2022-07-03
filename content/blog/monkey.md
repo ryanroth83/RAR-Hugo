@@ -4,7 +4,6 @@ date: 2022-05-07T17:59:33-05:00
 draft: false
 ---
 
-
 # Monkey
 
 Monkey is a common name that may refer to most mammals of the infraorder Simiiformes, also known as the simians. Traditionally, all animals in the group now known as simians are counted as monkeys except the apes, a grouping known as paraphyletic; however, in the broader sense based on cladistics, apes (Hominoidea) are also included, making the terms monkeys and simians synonyms in regards to their scope.[citation needed][3]
