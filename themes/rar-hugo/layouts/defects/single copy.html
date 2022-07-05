@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body class="Site">
+      {{ partial "header.html" . }}
+      {{ partial "navbar.html" . }}
+    <main class="Site-content">
+      <div class="content">
+        <h2>{{ .Title }}</h2>
+        <span>
+          <a class="backarrow" href="/defects">&#8617;</a>
+        </span>
+        <div class="flex-container">
+          <img class="flex-defectImage" src="/media/defects/new/AC_FROZEN_OUTSIDE_LINE.JPG" alt="">
+          <div class="flex-defectText">
+            {{ .Content }}
+          </div>
+        </div>    
+      </div>
+      <a class="backarrow" href="/defects">&#8617;</a>
+      </div>
+    </main>
+      {{ partial "footer.html" . }}
+  </body>
+</html>

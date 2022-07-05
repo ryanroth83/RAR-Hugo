@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body class="Site">
+      {{ partial "header.html" . }}
+      {{ partial "navbar.html" . }}
+    <main class="Site-content">
+      <a class="backarrow" href="/gallery">&#8617;</a>
+      <div class="gallery-container">
+        <div class="gallery-item">
+          {{ range .Paginator.Pages }}
+            <article>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <article>
+          {{ end }}
+        <a class="backarrow" href="/gallery">&#8617;</a>
+      </div>
+    </main>
+      {{ partial "footer.html" . }}
+  </body>
+</html>

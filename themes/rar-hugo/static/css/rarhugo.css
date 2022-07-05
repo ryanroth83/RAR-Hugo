@@ -53,7 +53,6 @@ h3 {
 
 h3 > .listarrow {
 	color	:#BF0D3E;
-    ali
     display:block;
 }
 
@@ -129,6 +128,21 @@ iframe {
     font-weight: bold;
 }
 
+.flex-container {
+    display: flex;
+  }
+ 
+.flex-defectImage{
+    align-content: flex-start;
+    flex-grow: 1;
+
+}
+.flex-defectText{
+    align-content: flex-end;
+    flex-grow: 3;
+}
+
+/*
 .flex-column {
     display         : -webkit-flex;
     display         : flex;
@@ -136,6 +150,7 @@ iframe {
     flex-wrap       : nowrap;
     justify-content : center;
 }
+*/
 
 .home {
     flex-basis  : 60%;
@@ -266,6 +281,11 @@ ul{
 
 }
 
+.defectList > img > a {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
 /******************highlight.js override*************/
 .hljs {
 	width               :900px;

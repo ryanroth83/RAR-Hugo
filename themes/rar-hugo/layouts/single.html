@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body class="Site">
+      {{ partial "header.html" . }}
+      {{ partial "navbar.html" . }}
+    <main class="Site-content">
+      <div class="content">
+        <div>
+          {{ .Title }}
+            <span>
+              <a class="backarrow" href="/defects">&#8617;</a>
+            </span>
+        </div>
+        {{ .Content }}
+        <a class="backarrow" href="/defects">&#8617;</a>
+      </div>
+    </main>
+      {{ partial "footer.html" . }}
+  </body>
+</html>
