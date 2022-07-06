@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body class="Site">
+      {{ partial "header.html" . }}
+      {{ partial "navbar.html" . }}
+    <main class="Site-content">
+      <div class="content">
+
 <div class="flextest-container">
   <div class="flextest-item">
     <div>
@@ -33,3 +42,9 @@
   </div>
   
 </div>
+
+      </div>
+    </main>
+      {{ partial "footer.html" . }}
+  </body>
+</html>
