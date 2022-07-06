@@ -273,3 +273,13 @@ pre {
 .Site-content {
     flex: 1;
   }
+  
+.flextest-container {
+  display: flex;
+  flex-direction:row
+
+.flextest-item {
+  border: 2px solid #999;
+  text-align: center;
+  
+}
