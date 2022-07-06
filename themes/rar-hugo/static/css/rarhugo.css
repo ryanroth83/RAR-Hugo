@@ -288,7 +288,7 @@ pre {
   
 .flextest-container {
   display: flex;
-  flex-direction:row
+  flex-direction: row;
 }
 
 .flextest-item {
