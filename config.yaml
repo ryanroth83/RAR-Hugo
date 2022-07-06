@@ -34,13 +34,10 @@ menu:
     - identifier: about
       name: About
       url: /about/
-<<<<<<< Updated upstream
       weight: 5
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 4
-=======
       weight: 70
     - identifier: blog
       name: Blog
@@ -54,4 +51,3 @@ menu:
       name: Gallery
       url: /gallery/
       weight: 50
->>>>>>> Stashed changes
