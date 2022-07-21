@@ -5,3 +5,5 @@ draft: false
 ---
 
 This is the About page.
+
+<i class=“fa-solid fa-beer-mug-empty”></i>
